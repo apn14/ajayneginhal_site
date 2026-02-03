@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "automation-controls-engineering-intern",
+    "organization": "Southern Cabinetry Inc.",
+    "role": "Automation / Controls Engineering Intern",
+    "dates": "May 2025 - Present",
+    "location": "United States",
+    "summary": "Controls and automation work for manufacturing equipment with a focus on PLC logic, drive integration, and operator-facing tooling.",
+    "bullets": [
+      "Developed and iterated ControlLogix ladder logic for conveyors, sensors, and safety interlocks to stabilize automated material flow.",
+      "Integrated VFDs, photoeyes, and motor starters; validated I/O maps and fault handling during commissioning.",
+      "Built Ignition HMI/SCADA views and alarm logic to speed troubleshooting and operator handoff.",
+      "Documented electrical schematics, panel layouts, and change logs to support maintenance and future upgrades."
+    ],
+    "technologies": [
+      "Rockwell ControlLogix",
+      "Ladder Logic",
+      "VFDs",
+      "Conveyors",
+      "Ignition SCADA",
+      "Industrial Networks",
+      "Sensors",
+      "Safety Interlocks"
+    ]
+  },
+  {
+    "slug": "undergraduate-research-assistant-arya-lab",
+    "organization": "Arya Laboratory, Duke University",
+    "role": "Undergraduate Research Assistant",
+    "dates": "Nov 2024 - Present",
+    "location": "Durham, NC",
+    "summary": "Computational research in protein allostery and molecular dynamics with an emphasis on reproducible analysis pipelines.",
+    "bullets": [
+      "Designed Python pipelines to process molecular dynamics trajectories and compute allostery metrics (CARDS) across large ensembles.",
+      "Validated liposome and micelle clustering workflows with statistical checks and publication-grade visualizations.",
+      "Automated data ingest, batching, and report generation to ensure reproducible analysis across experiments.",
+      "Collaborated with lab members to translate biological hypotheses into computational experiments."
+    ],
+    "technologies": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "pandas",
+      "MDAnalysis",
+      "Matplotlib",
+      "Jupyter",
+      "Git",
+      "HPC"
+    ]
+  },
+  {
+    "slug": "design-team-leader-duke-medesign",
+    "organization": "Duke MEDesign",
+    "role": "Design Team Leader",
+    "dates": "Sep 2023 - Present",
+    "location": "Durham, NC",
+    "summary": "Lead multidisciplinary teams building medical device concepts from requirements through functional prototypes.",
+    "bullets": [
+      "Led cross-functional teams through requirements, risk analysis, and design reviews for multiple medical device concepts.",
+      "Directed rapid prototyping and benchtop testing to iterate mechanisms and sensing subsystems.",
+      "Coordinated documentation, purchasing, and fabrication to keep builds on schedule and within budget.",
+      "Mentored new members on electronics, embedded integration, and verification planning."
+    ],
+    "technologies": [
+      "Medical Device Design",
+      "Rapid Prototyping",
+      "Electronics",
+      "Embedded Systems",
+      "Risk Analysis",
+      "Test Planning",
+      "CAD"
+    ]
+  }
+]

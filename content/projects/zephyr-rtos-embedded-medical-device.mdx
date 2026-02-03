@@ -1,0 +1,73 @@
+---
+slug: zephyr-rtos-embedded-medical-device
+title: "Zephyr RTOS Embedded Medical Device"
+dates: "TBD"
+context: "Research"
+role: "Embedded Engineer"
+summary: "nRF52833-based embedded medical device using Zephyr RTOS, BLE, and ECG acquisition."
+tags:
+  - Embedded
+  - RTOS
+  - BLE
+  - Biomedical
+  - Signal Processing
+reminders:
+  - "Describe the Zephyr task architecture and why RTOS scheduling mattered."
+  - "Explain BLE data streaming and power considerations."
+  - "Discuss ECG signal integrity and filtering decisions."
+technologies:
+  - Zephyr RTOS
+  - nRF52833
+  - BLE
+  - C
+  - ECG
+  - ADC
+links: []
+hero:
+  image: "/images/placeholders/hero.svg"
+  alt: "Zephyr RTOS device hero placeholder"
+  caption: "Embedded medical device architecture (placeholder)."
+sections:
+  - heading: "System Overview"
+    body: >
+      Built an embedded medical device platform on the nRF52833 to acquire ECG
+      signals and stream data over BLE for analysis.
+  - heading: "RTOS Architecture"
+    body: >
+      Zephyr tasks manage sampling, preprocessing, and BLE transmission with
+      deterministic timing and low power use.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "RTOS task diagram placeholder."
+    codeBlocks:
+      - language: "c"
+        description: "Zephyr thread scheduling and BLE notification routine."
+        placeholder: true
+  - heading: "Hardware and Signal Chain"
+    body: >
+      The analog front end feeds the ADC, with filtering stages tuned for ECG
+      frequency bands and noise rejection.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "PCB layout / analog front-end schematic placeholder."
+  - heading: "Testing and Validation"
+    body: >
+      Bench validation focused on sampling stability, BLE throughput, and signal
+      quality under motion artifacts.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "ECG signal quality plots placeholder."
+  - heading: "Demo and Next Steps"
+    body: >
+      Future work includes firmware hardening, expanded signal processing, and
+      clinical pilot planning.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Demo video placeholder."
+---
+This project applies Zephyr RTOS on the nRF52833 to deliver reliable ECG
+acquisition with BLE streaming for downstream analysis and visualization.

@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#g)"/>
+  <rect x="64" y="64" width="1072" height="502" rx="32" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <g fill="#E2E8F0" font-family="Space Grotesk, Arial, sans-serif">
+    <text x="600" y="300" text-anchor="middle" font-size="44" font-weight="600">Ajay Neginhal</text>
+    <text x="600" y="360" text-anchor="middle" font-size="22" opacity="0.75">Controls, Embedded, and Scientific Computing</text>
+  </g>
+</svg>

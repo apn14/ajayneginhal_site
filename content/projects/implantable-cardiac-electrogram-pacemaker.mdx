@@ -1,0 +1,82 @@
+---
+slug: implantable-cardiac-electrogram-pacemaker
+title: "Implantable Cardiac Electrogram and Pacemaker"
+dates: "Jan 2025 - May 2025"
+context: "Academic"
+role: "Capstone Design Team"
+summary: "Implantable electrogram acquisition and pacing system that detects arrhythmia patterns and drives corrective pacing."
+tags:
+  - Biomedical
+  - Analog
+  - Embedded
+  - Signal Processing
+  - Pacemaker
+reminders:
+  - "Walk through the electrogram signal chain and how noise was handled."
+  - "Explain the pacing control logic that returns the heart to sinus rhythm."
+  - "Highlight the use of LTSpice and bench emulation to validate behavior."
+technologies:
+  - LTSpice
+  - Analog Filters
+  - Op-Amps
+  - Microcontroller
+  - Pulse Modulation
+  - Pressure Sensors
+  - Function Generator
+links:
+  - label: "Legacy portfolio"
+    url: "https://sites.duke.edu/ajayn/cardiac-electrogram-and-pacemaker/"
+hero:
+  image: "/images/placeholders/hero.svg"
+  alt: "Implantable cardiac electrogram and pacemaker hero placeholder"
+  caption: "Signal chain and pacing control overview (placeholder)."
+sections:
+  - heading: "Clinical Problem"
+    body: >
+      Designed a device capable of distinguishing healthy sinus rhythm from
+      dangerous rhythms that require pacing intervention. The system continuously
+      senses an electrogram, evaluates rhythm state, and applies corrective pacing
+      when needed.
+  - heading: "System Architecture"
+    body: >
+      The architecture includes an analog front end, rhythm classifier, and a
+      pacing signal generator. Bench emulation used a multi-wave function
+      generator and pulse modulation to simulate physiologic signals.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Electrogram acquisition and pacing architecture diagram placeholder."
+    codeBlocks:
+      - language: "c"
+        description: "Pacing control state machine."
+        placeholder: true
+  - heading: "Analog Front End"
+    body: >
+      Developed amplification and filtering stages to isolate the electrogram
+      from noise while preserving clinically relevant features for rhythm
+      classification.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Analog front-end schematic placeholder."
+  - heading: "Testing and Validation"
+    body: >
+      Validated sensing, classification, and pacing behavior using simulated
+      rhythms in LTSpice and on the bench.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Electrogram and pacing response plots placeholder."
+  - heading: "Demo and Next Steps"
+    body: >
+      Future work includes encapsulation, biocompatibility planning, and power
+      optimization for implantable deployment.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Demo video placeholder."
+---
+This capstone project focused on building a closed-loop cardiac electrogram
+acquisition and pacing system. The device distinguishes between normal sinus
+rhythm and patterns requiring intervention, then adapts pacing frequency to
+restore a healthy rhythm.

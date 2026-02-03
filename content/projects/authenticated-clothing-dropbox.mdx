@@ -1,0 +1,82 @@
+---
+slug: authenticated-clothing-dropbox
+title: "Authenticated Clothing Dropbox"
+dates: "Aug 2022 - Dec 2022"
+context: "Academic"
+role: "Design Team Member"
+summary: "Secure clothing dropbox that uses RFID and computer vision to authenticate the user before dispensing garments."
+tags:
+  - Computer Vision
+  - Embedded
+  - Security
+  - Mechanical
+  - Product Design
+reminders:
+  - "Explain the RFID + vision authentication flow and why two factors were needed."
+  - "Highlight the custom slot/magnet mechanism that releases one garment at a time."
+  - "Discuss safety, privacy, and failure modes for a public-facing device."
+technologies:
+  - Python
+  - OpenCV
+  - RFID
+  - Microcontroller
+  - Webcam
+  - DC Motor
+  - Solenoid
+  - 3D Printing
+links:
+  - label: "Legacy portfolio"
+    url: "https://sites.duke.edu/ajayn/authenticated-clothing-dropbox/"
+hero:
+  image: "/images/placeholders/hero.svg"
+  alt: "Authenticated clothing dropbox hero image placeholder"
+  caption: "Prototype enclosure with authenticated dispensing mechanism (placeholder)."
+sections:
+  - heading: "Problem and Approach"
+    body: >
+      Designed a secure clothing storage system that dispenses garments only to the
+      authenticated user. The solution combines RFID verification with computer
+      vision to reduce false positives while keeping the user experience fast and
+      intuitive.
+  - heading: "System Architecture"
+    body: >
+      The device integrates RFID, a camera, and a microcontroller that coordinates
+      the authorization workflow. A dispense routine drives a motor and solenoid
+      to unlock the garment while logging events for auditability.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "System architecture diagram placeholder."
+    codeBlocks:
+      - language: "python"
+        description: "Vision + RFID authentication pipeline."
+        placeholder: true
+  - heading: "Mechanical and Electrical Design"
+    body: >
+      A custom slot and magnet mechanism isolates a single garment and prevents
+      accidental multiple releases. The electronics coordinate the RFID reader,
+      camera trigger, and actuation sequence.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Actuation schematic / PCB layout placeholder."
+  - heading: "Testing and Validation"
+    body: >
+      Verified the authorization flow, dispensing reliability, and error recovery
+      behavior across repeated runs.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Test data plot placeholder."
+  - heading: "Demo and Next Steps"
+    body: >
+      Future work includes enclosure refinement, deployment monitoring, and user
+      studies for public environments.
+    figures:
+      - image: "/images/placeholders/figure.svg"
+        alt: "Figure coming soon"
+        caption: "Demo video placeholder."
+---
+The authenticated clothing dropbox was built to prevent unauthorized access to
+personal items in shared environments. It combines RFID access control with
+computer vision so that a single compromised factor does not grant access.
